@@ -1,0 +1,111 @@
+
+.chat-page {
+  display: flex;
+  height: 100vh;
+  background: #f5f5f5;
+}
+
+/* SIDEBAR */
+.chat-sidebar {
+  width: 280px;
+  background: white;
+  border-right: 1px solid #ddd;
+  padding: 15px;
+}
+
+.chat-user {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 10px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.chat-user:hover {
+  background: #eee;
+}
+
+.chat-user img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+
+/* CHAT BOX */
+.chat-box {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+/* HEADER */
+.chat-header {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  background: white;
+  padding: 15px;
+  border-bottom: 1px solid #ddd;
+}
+
+.chat-header img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+
+/* MESSAGES */
+.chat-messages {
+  flex: 1;
+  padding: 20px;
+  overflow-y: auto;
+}
+
+.msg {
+  max-width: 60%;
+  padding: 10px 15px;
+  margin: 5px 0;
+  border-radius: 15px;
+}
+
+.msg.user {
+  background: #e90707;
+  color: white;
+  margin-left: auto;
+}
+
+.msg.artist {
+  background: #ddd;
+  color: black;
+  margin-right: auto;
+}
+
+/* INPUT */
+.chat-input {
+  display: flex;
+  padding: 10px;
+  background: white;
+  border-top: 1px solid #ddd;
+}
+
+.chat-input input {
+  flex: 1;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 20px;
+}
+
+.chat-input button {
+  margin-left: 10px;
+  background: #111;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.chat-input button:hover {
+  background: red;
+}

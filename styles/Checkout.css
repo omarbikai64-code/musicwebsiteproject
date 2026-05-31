@@ -1,0 +1,98 @@
+.checkout-page {
+  min-height: 100vh;
+  padding: 120px 30px;
+  background: #f5f5f5;
+
+  display: flex;
+  justify-content: center;
+}
+
+.checkout-card {
+  width: 1000px;
+  background: white;
+
+  border-radius: 20px;
+  overflow: hidden;
+
+  display: flex;
+
+  box-shadow: 0 5px 20px rgba(0,0,0,0.15);
+}
+
+.checkout-image {
+  width: 45%;
+  object-fit: cover;
+}
+
+.checkout-info {
+  flex: 1;
+  padding: 40px;
+}
+
+.checkout-info h1 {
+  margin-bottom: 15px;
+}
+
+.track-details {
+  margin-top: 25px;
+
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 15px;
+}
+
+.track-details div {
+  background: #f8f8f8;
+  padding: 15px;
+  border-radius: 10px;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.track-details strong {
+  color: #e90707;
+}
+
+.price-section {
+  margin-top: 30px;
+}
+
+.price-section h2 {
+  color: #e90707;
+  font-size: 35px;
+}
+
+.payment-section {
+  margin-top: 25px;
+}
+
+.payment-section select {
+  width: 100%;
+  padding: 12px;
+  margin-top: 10px;
+
+  border-radius: 10px;
+  border: 1px solid #ccc;
+}
+
+.buy-btn {
+  width: 100%;
+  margin-top: 20px;
+
+  border: none;
+  padding: 14px;
+
+  background: #e90707;
+  color: white;
+
+  border-radius: 10px;
+  font-size: 17px;
+  cursor: pointer;
+
+  transition: 0.3s;
+}
+
+.buy-btn:hover {
+  background: #c70505;
+}
